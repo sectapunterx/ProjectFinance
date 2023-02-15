@@ -20,7 +20,7 @@ public class SaveLoad {
             sd.setTransactions(wrapper.getTransactions());
             sd.setTransfers(wrapper.getTransfers());
             sd.setCurrencies(wrapper.getCurrencies());
-        } catch (JAXBException e) {
+        } catch (JAXBException e){
             throw new RuntimeException(e);
         }
     }
